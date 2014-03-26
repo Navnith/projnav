@@ -1,0 +1,107 @@
+
+/* 
+    Document   : helvetica2
+    Created on : Mar 13, 2014, 8:06:56 PM
+    Author     : eNVious
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+* {
+  margin: 0;
+}
+ 
+nav {
+  margin: 20px;
+}
+ 
+ul {
+  list-style-type: none;
+}
+ 
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+ 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+li a:hover {
+  color: #666;
+}
+ 
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.left {
+  left: 25px;
+}
+
+.right {
+  right: 25px;
+}
+
+.center {
+  text-align: center;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 25px;
+}
+
+
+#card {
+  position: absolute;
+  width: 370px;
+  height: 230px;
+  padding: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  left: 50%;
+  top: 80px;
+  margin-left: -250px;
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  z-index: 5;
+}
+
+#card h2 {
+  font-family: helvetica;
+  color: #ccc;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 22px;
+}
+
+#card table tr td {
+  font-family: helvetica;
+  color: #ccc;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#card span {
+  font-family: helvetica;
+}
+

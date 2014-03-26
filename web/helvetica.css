@@ -1,0 +1,68 @@
+/* 
+    Document   : helvetica
+    Created on : Mar 8, 2014, 10:34:59 PM
+    Author     : eNVious
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+      
+* {
+  margin: 0;
+}
+ 
+nav {
+  margin: 20px;
+}
+ 
+ul {
+  list-style-type: none;
+}
+ 
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+ 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+li a:hover {
+  color: #666;
+}
+ 
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
+table{
+   margin: 60px;
+}
+table tr td{
+  text-decoration: none;
+  height: 25px;
+  color: #ccc;
+  padding: 5px;
+  text-transform: uppercase;
+  font: 15px/1 Helvetica, Verdana, sans-serif;
+ 
+}
+table tr td input{
+    text-decoration: none;
+  height: 25px;
+  color: #ccc;
+  font: 15px/1 Helvetica, Verdana, sans-serif;
+}
